@@ -4,7 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
 import { useContext } from "react";
 import { AppContext } from "../context/AppContext";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   const {userData} = useContext(AppContext);
