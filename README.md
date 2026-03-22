@@ -15,32 +15,22 @@ Fully Integrated Frontend & Backend Clean Code and Scalable Architecture
 ### Frontend:
 
 React.js
-
 Bootstrap 5
-
 Axios
-
 React Router
 
 ### Backend:
 
 Spring Boot
-
 Spring Security
-
 JavaMailSender
-
 JWT (JSON Web Tokens)
-
 MySQL
 
 ### Security Features
 
 JWT Authentication – Stateless token-based authentication
-
 Spring Security Filters – To protect APIs and restrict unauthorized access
-
 Email OTP Verification – JavaMailSender for secure email verification
-
 Hashed Passwords – Secure password storage with BCrypt
 
