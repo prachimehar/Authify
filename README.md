@@ -2,23 +2,16 @@
 
 A secure and production-ready Authentication System with complete Email OTP Verification, JWT-based login, and Role-Based Access Control, built using Spring Boot, Spring Security, React, and MySQL.
 
-## ✨ Features
+## Features
 
-✔️ User Registration with Email OTP Verification
+User Registration with Email OTP Verification
+Login & JWT Token Authentication
+Reset Password via Email
+Protected Routes in React
+Modern UI with Bootstrap 5
+Fully Integrated Frontend & Backend Clean Code and Scalable Architecture
 
-✔️ Login & JWT Token Authentication
-
-✔️ Reset Password via Email
-
-✔️ Protected Routes in React
-
-✔️ Modern UI with Bootstrap 5
-
-✔️ Fully Integrated Frontend & Backend
-
-✔️ Clean Code and Scalable Architecture
-
-# 🧑‍💻 Tech Stack
+# Tech Stack
 ## Frontend:
 
 React.js
@@ -41,7 +34,7 @@ JWT (JSON Web Tokens)
 
 MySQL
 
-# 🔐 Security Features
+# Security Features
 
 JWT Authentication – Stateless token-based authentication
 
