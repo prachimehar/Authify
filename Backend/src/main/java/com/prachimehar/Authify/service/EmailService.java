@@ -93,6 +93,7 @@ public class EmailService {
     public void sendOtpEmail(String toEmail, String otp) throws MessagingException {
         Context context = new Context();
         context.setVariable("email", toEmail);
+        context.setVariable("otp", otp);
         context.setVariable("verificationLink", "http://localhost:8080/api/v1.0/verify-otp?email=" + toEmail + "&otp=" + otp);
 
         String htmlContent = templateEngine.process("verify-email", context);
